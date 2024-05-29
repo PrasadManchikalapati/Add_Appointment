@@ -1,0 +1,67 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 120vh;
+  background-size: cover;
+  margin-top: -22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: white;
+  width: 55vw;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 8px;
+}
+
+label {
+  font-size: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 13vw;
+}
+
+.button {
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+}
+
+h1 {
+  color: #171f46;
+}
+
+.appointList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.starred {
+  margin-top: 40px;
+  background-color: transparent;
+  border: 2px solid#9897f0;
+  color: #9897f0;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,18 @@
+.star {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.appList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  border: 2px solid #b5b7c4;
+  width: 13vw;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px;
+}
